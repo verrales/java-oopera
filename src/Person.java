@@ -21,7 +21,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{"
+        return "{"
                 + "Имя: '" + name
                 + "', Фамилия: '" + surname + "'";
     }
