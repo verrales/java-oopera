@@ -19,6 +19,10 @@ public class Show {
         }
     }
 
+    public void printDirector() {
+        System.out.println(director.toString());
+    }
+
     public void addNewActor(Actor newActor) {
         for (Actor existingActor : listOfActors) {
             if (existingActor.equals((newActor))) {
